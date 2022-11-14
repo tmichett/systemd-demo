@@ -1,0 +1,9 @@
+[Unit]
+Description=UPS system check service that checks connectivity to UPS every 30 seconds.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/ups_test_service.sh
+
+[Install]
+WantedBy=multi-user.target

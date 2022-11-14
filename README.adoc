@@ -1,0 +1,4 @@
+= SystemD Custom Services from Script
+
+This repository contains a custom script file and the corresponding SystemD Service file to convert from an InitV script to a SystemD Unit File (.service).
+
